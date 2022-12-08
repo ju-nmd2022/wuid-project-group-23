@@ -1,0 +1,80 @@
+#order
+{
+color:rgb(0, 0, 0);
+font-size:50px;
+font-family:Jura;
+left:660px;
+top:45px;
+display: flex;
+justify-content: center;
+}
+#done{
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    right: 30%;
+    animation: Slide;
+    animation-duration: 2s;
+}
+
+@keyframes Slide{
+from{right: 100%;}
+to{right: 30%;}
+}
+
+
+#thankyou{
+    
+        color:rgb(197, 85, 63);
+        font-size:30px;
+        font-family:Jura;
+        position: absolute;
+        top: 86%;
+    left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:670px){
+    #order
+        {
+        color:rgb(0, 0, 0);
+        font-size:35px;
+        font-family:Jura;
+        left:40%;
+        top:5%;
+        display: flex;
+        justify-content: center;
+        }
+        #done{
+            width: 80%;
+            position: absolute;
+            top: 25%;
+            right: 10%;
+            animation: Slide;
+    animation-duration: 1s;
+        }
+        @keyframes Slide{
+            from{right: 100%;}
+            to{right: 10%;}
+            }
+        #thankyou{
+            
+                color:rgb(197, 85, 63);
+                font-size:15px;
+                font-family:Jura;
+                
+                display: flex;
+            justify-content:center;     }
+}

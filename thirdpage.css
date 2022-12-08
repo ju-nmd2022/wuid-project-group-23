@@ -1,0 +1,238 @@
+.bowl{
+    position: absolute;
+    left: 0%;
+    bottom: 10%;
+    width: 50%;
+}
+
+
+.shop
+{
+  /*
+color:rgb(0, 0, 0);
+font-size:40px;
+font-family:Jura;
+left:660px;
+top:45px;
+position:absolute;*/
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10%;
+  font-family: Jura;
+  font-size: 40px;
+}
+#line1{
+   /* background-color: rgb(225, 191, 90);
+    position: absolute;
+    width: 640px;
+    height: 4px;
+left: 0%;
+top: 8%;*/
+background-color: rgb(225, 191, 90);
+  position: absolute;
+  width: 38%;
+  height: 4px;
+  left: 0%;
+  top: 8%;
+}
+#line2{
+    /*background-color: rgb(225, 191, 90);
+    position: absolute;
+    width: 550px;
+    height: 4px;
+right: 8%;
+top: 8%;*/
+background-color: rgb(225, 191, 90);
+  position: absolute;
+  width: 30%;
+  height: 4px;
+  right: 8%;
+  top: 8%;
+}
+.cart{
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  width: 3%;
+  }
+.pokèbowlrainbow
+{
+color:rgb(197, 85, 63);
+font-size:45px;
+font-family:Jura;
+position: absolute;
+top: 20%;
+right: 16%;
+}
+.description{
+    color: #333;
+  font-family: Jura;
+  font-size: 24px;
+  opacity: 1;
+  width: 30%;
+  position: absolute;
+  top: 30%;
+  right: 13%;
+}
+.button{
+    position: absolute;
+    color: rgb(141, 23, 24);
+position: absolute;
+top: 55%;
+right: 500px;
+font-family: Jura;
+font-weight: Bold;
+font-size: 200%;
+opacity: 1;
+border-radius: 15px;
+background-color: rgb(255, 255, 255);
+border-color:rgb(141, 23, 24);
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+  }
+
+
+#endpagebar{
+    background-color:rgb(219, 176, 157);
+    height:89px;
+    width: 100%;
+    position: absolute;
+    top: 90%;
+    left: 0%;
+  }
+
+#cookingwithangelina{
+    position: absolute;
+    top: 93%;
+    color:rgb(255, 255, 255);
+    font-size:25px;
+    font-family:Jura;
+    right: 570px;
+    
+    }
+    #back{
+        position: absolute;
+        width: 40px;
+        top: 100px;
+        left: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    @media screen and (max-width:670px)
+    {
+        .bowl{
+            position: absolute;
+            left: 0%;
+            bottom: 10%;
+            width: 90%;
+        }
+        
+        
+        .shop
+        {
+        color:rgb(0, 0, 0);
+        font-size:35px;
+        font-family:Jura;
+        left:30%;
+        top:1.4%;
+        position:absolute;
+        }
+        #line1{
+            background-color: rgb(225, 191, 90);
+            position: absolute;
+            width: 130px;
+            height: 4px;
+            left: 0%;
+           top: 8%;
+        }
+        #line2{
+            background-color: rgb(225, 191, 90);
+            position: absolute;
+            width: 58px;
+            height: 4px;
+            right: 17%;
+            top: 8%;
+        }
+        .cart{
+            position: absolute;
+            top: 5%;
+            right: 3%;
+            width: 11%;
+          }
+        .pokèbowlrainbow
+        {
+        color:rgb(197, 85, 63);
+        font-size:30px;
+        font-family:Jura;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 15%;
+        
+        }
+        .description{
+            color: #333;
+          font-family: Jura;
+          font-size: 12px;
+          opacity: 1;
+          width: 65%;
+          position: absolute;
+          top: 20%;
+          right: 18%;
+          text-align: center;
+        }
+        .button{
+            color: rgb(141, 23, 24);
+        position: absolute;
+        top: 35%;
+        right: 120px;
+        font-family: Jura;
+        font-weight: Bold;
+        font-size: 200%;
+        opacity: 1;
+        border-radius: 15px;
+        background-color: rgb(255, 255, 255);
+        border-color:rgb(141, 23, 24);
+          }
+        
+        
+          #endpagebar{
+            background-color:rgb(219, 176, 157);
+            height:70px;
+            width: 100%;
+            position: absolute;
+            top: 90%;
+            left: 0%;
+            bottom: 0px;
+          }
+          #cookingwithangelina{
+            position: absolute;
+            top: 93%;
+            color:rgb(255, 255, 255);
+            font-size:25px;
+            font-family:Jura;
+            right: 30px;
+            
+            }
+            #back{
+                position: absolute;
+                width: 10%;
+                top: 10%;
+                left: 2%;
+            }
+    } 
