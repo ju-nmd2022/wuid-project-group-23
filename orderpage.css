@@ -1,27 +1,31 @@
-.order
-{
+.order {
   /*
-color:rgb(0, 0, 0);
-font-size:40px;
-font-family:Jura;
-left:660px;
-top:45px;
-position:absolute;*/
-display: flex;
+    color:rgb(0, 0, 0);
+    font-size:40px;
+    font-family:Jura;
+    left:660px;
+    top:45px;
+    position:absolute;
+  */
+
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 30px 10%;
   font-family: Jura;
   font-size: 40px;
 }
-#line1{
+
+#line1 {
   /*
     background-color: rgb(225, 191, 90);
     position: absolute;
     width: 640px;
     height: 4px;
-left: 0%;
-top: 8%;*/
+    left: 0%;
+    top: 8%;
+  */
+
   background-color: rgb(225, 191, 90);
   position: absolute;
   width: 38%;
@@ -29,14 +33,17 @@ top: 8%;*/
   left: 0%;
   top: 8%;
 }
-#line2{
+
+#line2 {
   /*
     background-color: rgb(225, 191, 90);
     position: absolute;
     width: 550px;
     height: 4px;
-right: 8%;
-top: 8%;*/
+    right: 8%;
+    top: 8%;
+  */
+
   background-color: rgb(225, 191, 90);
   position: absolute;
   width: 30%;
@@ -44,189 +51,187 @@ top: 8%;*/
   right: 8%;
   top: 8%;
 }
-.cart{
-    position: absolute;
-    top: 5%;
-    right: 3%;
-    width: 3%;
-  }
 
-  #inthecart{
-    color:rgb(186, 63, 39);
-    font-size:45px;
-    font-family:Jura;
-    position: absolute;
-    top: 15%;
-left: 6%;
+.cart {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  width: 3%;
 }
 
-  #item{
-    color: rgb(86, 85, 85);
-    font-family: Jura;
-    font-size: 20px;
-    opacity: 10;
-    width: 30%;
-    position: absolute;
-    top: 25%;
-    left: 6%;
-  }
-
-#pokebowl{
-    color:rgb(197, 85, 63);
-    font-size:27px;
-    font-family:Jura;
-    position: absolute;
-    top: 32%;
-    left: 12%;
-  }
-  #foodpic{
-    width: 80px;
-    position: absolute;
-    top: 32%;
-    left: 5%;
-    rotate: 180deg;}
-
-  #price1{
-     color:rgb(116, 113, 113);
-    font-size: 27px;
-    font-family:Jura;
-    position: absolute;
-    top: 32%;
-    left: 30%;
-}
-#line3{
-    background-color:rgb(186, 63, 39);
-    position: absolute;
-    width: 440px;
-    height: 3px;
-left: 5%;
-top: 43%;
-}
-.total{
-    color:rgb(186, 63, 39);
-    font-size:28px;
-    font-family:Jura;
-    position: absolute;
-    top: 42%;
-left: 24%;
-}
-#price2{
-    color:rgb(0, 0, 0);
-   font-size: 27px;
-   font-family:Jura;
-   position: absolute;
-   top: 42%;
-left: 30%;
+#inthecart {
+  color: rgb(186, 63, 39);
+  font-size: 45px;
+  font-family: Jura;
+  position: absolute;
+  top: 15%;
+  left: 6%;
 }
 
+#item {
+  color: rgb(86, 85, 85);
+  font-family: Jura;
+  font-size: 20px;
+  opacity: 10;
+  width: 30%;
+  position: absolute;
+  top: 25%;
+  left: 6%;
+}
 
+#pokebowl {
+  color: rgb(197, 85, 63);
+  font-size: 27px;
+  font-family: Jura;
+  position: absolute;
+  top: 32%;
+  left: 12%;
+}
 
-  .select{
-    color:rgb(186, 63, 39);
-    font-size:45px;
-    font-family:Jura;
-    position: absolute;
-    top: 15%;
-    right: 10%;
-  }
-  .buttoncard{
-    color: #333;
+#foodpic {
+  width: 80px;
+  position: absolute;
+  top: 32%;
+  left: 5%;
+  rotate: 180deg;
+}
+
+#price1 {
+  color: rgb(116, 113, 113);
+  font-size: 27px;
+  font-family: Jura;
+  position: absolute;
+  top: 32%;
+  left: 30%;
+}
+
+#line3 {
+  background-color: rgb(186, 63, 39);
+  position: absolute;
+  width: 440px;
+  height: 3px;
+  left: 5%;
+  top: 43%;
+}
+
+.total {
+  color: rgb(186, 63, 39);
+  font-size: 28px;
+  font-family: Jura;
+  position: absolute;
+  top: 42%;
+  left: 24%;
+}
+#price2 {
+  color: rgb(0, 0, 0);
+  font-size: 27px;
+  font-family: Jura;
+  position: absolute;
+  top: 42%;
+  left: 30%;
+}
+
+.select {
+  color: rgb(186, 63, 39);
+  font-size: 45px;
+  font-family: Jura;
+  position: absolute;
+  top: 15%;
+  right: 10%;
+}
+
+.buttoncard {
+  color: #333;
   font-family: Jura;
   font-size: 35px;
   opacity: 1;
   width: 30%;
   position: absolute;
   top: 35%;
-    right: 3%;
-  }
-  #card{
-    width: 8%;
-    position: absolute;
-    top: 32%;
-    right: 34%;
-  }
-
- 
-  
-.complete {
-    color: rgb(141, 23, 24);
-    position: absolute;
-    top: 80%;
-    right: 10%;
-    font-family: Jura;
-    font-weight: Bold;
-    font-size: 250%;
-    opacity: 1;
-    border-radius: 15px;
-    background-color: rgb(255, 255, 255);
-    border-color:rgb(141, 23, 24);
-  }
-  #back{
-    position: absolute;
-    top: 100px;
-    left: 20px;
-    width: 40px;
+  right: 3%;
 }
 
+#card {
+  width: 8%;
+  position: absolute;
+  top: 32%;
+  right: 34%;
+}
 
+.complete {
+  color: rgb(141, 23, 24);
+  position: absolute;
+  top: 80%;
+  right: 10%;
+  font-family: Jura;
+  font-weight: Bold;
+  font-size: 250%;
+  opacity: 1;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(141, 23, 24);
+}
 
+#back {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  width: 40px;
+}
 
-
-
-
-
-  @media screen and (max-width:670px) {
-
-    .order
-    {
-      /*
-    color:rgb(0, 0, 0);
-    font-size:35px;
-    font-family:Jura;
-    left:40%;
-    top:5%;*/
+@media screen and (max-width: 670px) {
+  .order {
+    /*
       color:rgb(0, 0, 0);
       font-size:35px;
       font-family:Jura;
-      left:30%;
-      top:1.4%;
-      position:absolute;
-    }
-    #line1{
-        background-color: rgb(225, 191, 90);
-        position: absolute;
-        width: 130px;
-        height: 4px;
+      left:40%;
+      top:5%;
+    */
+
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: Jura;
+    left: 30%;
+    top: 1.4%;
+    position: absolute;
+  }
+
+  #line1 {
+    background-color: rgb(225, 191, 90);
+    position: absolute;
+    width: 130px;
+    height: 4px;
     left: 0%;
     top: 8%;
-    }
-    #line2{
-        background-color: rgb(225, 191, 90);
-        position: absolute;
-        width: 58px;
-        height: 4px;
+  }
+
+  #line2 {
+    background-color: rgb(225, 191, 90);
+    position: absolute;
+    width: 58px;
+    height: 4px;
     right: 17%;
     top: 8%;
-    }
-    .cart{
-        position: absolute;
-        top: 5%;
-        right: 3%;
-        width: 11%;
-      }
+  }
 
+  .cart {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    width: 11%;
+  }
 
-  #inthecart{
-    color:rgb(197, 85, 63);
-    font-size:25px;
-    font-family:Jura;
+  #inthecart {
+    color: rgb(197, 85, 63);
+    font-size: 25px;
+    font-family: Jura;
     position: absolute;
     top: 12%;
     left: 5%;
-    
-    }
+  }
 
-  #item{
+  #item {
     color: rgb(86, 85, 85);
     font-family: Jura;
     font-size: 20px;
@@ -237,98 +242,104 @@ left: 30%;
     left: 6%;
   }
 
-#pokebowl{
-    color:rgb(197, 85, 63);
-    font-size:18px;
-    font-family:Jura;
+  #pokebowl {
+    color: rgb(197, 85, 63);
+    font-size: 18px;
+    font-family: Jura;
     position: absolute;
     top: 26%;
-left: 22%;
+    left: 22%;
   }
-  #foodpic{
+
+  #foodpic {
     width: 15%;
     position: absolute;
     top: 26%;
     left: 5%;
-    rotate: 180deg;}
+    rotate: 180deg;
+  }
 
-  #price1{
-     color:rgb(116, 113, 113);
+  #price1 {
+    color: rgb(116, 113, 113);
     font-size: 18px;
-    font-family:Jura;
+    font-family: Jura;
     position: absolute;
     top: 26%;
-left: 70%;
-}
-#line3{
-    background-color:rgb(186, 63, 39);
+    left: 70%;
+  }
+
+  #line3 {
+    background-color: rgb(186, 63, 39);
     position: absolute;
     width: 310px;
     height: 3px;
-left: 5%;
-top: 35%;
-}
-.total{
-    color:rgb(186, 63, 39);
-    font-size:25px;
-    font-family:Jura;
+    left: 5%;
+    top: 35%;
+  }
+
+  .total {
+    color: rgb(186, 63, 39);
+    font-size: 25px;
+    font-family: Jura;
     position: absolute;
     top: 33%;
-left: 50%;
-}
-#price2{
-    color:rgb(0, 0, 0);
-   font-size: 25px;
-   font-family:Jura;
-   position: absolute;
-   top: 33%;
-left: 68%;
-}
+    left: 50%;
+  }
 
+  #price2 {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: Jura;
+    position: absolute;
+    top: 33%;
+    left: 68%;
+  }
 
-
-  .select{
-    color:rgb(197, 85, 63);
-    font-size:25px;
-    font-family:Jura;
+  .select {
+    color: rgb(197, 85, 63);
+    font-size: 25px;
+    font-family: Jura;
     position: absolute;
     top: 45%;
     left: 5%;
   }
-  .buttoncard{
+
+  .buttoncard {
     color: #333;
-  font-family: Jura;
-  font-size: 25px;
-  opacity: 1;
-  width: 50%;
-  position: absolute;
-  top: 60%;
+    font-family: Jura;
+    font-size: 25px;
+    opacity: 1;
+    width: 50%;
+    position: absolute;
+    top: 60%;
     left: 30%;
   }
-  #card{
+
+  #card {
     width: 18%;
     position: absolute;
     top: 58%;
     left: 5%;
   }
 
-    .complete {
-      color: rgb(141, 23, 24);
-      position: absolute;
-      top: 80%;
-      right: 10%;
-      font-family: Jura;
-      font-weight: Bold;
-      font-size: 30px;
-      opacity: 1;
-      border-radius: 15px;
-      background-color: rgb(255, 255, 255);
-      border-color:rgb(141, 23, 24);
-    }
-    #back{
-      position: absolute;
-      width: 10%;
-      top: 10%;
-      left: 2%;
+  .complete {
+    color: rgb(141, 23, 24);
+    position: absolute;
+    top: 80%;
+    right: 10%;
+    font-family: Jura;
+    font-weight: Bold;
+    font-size: 30px;
+    opacity: 1;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(141, 23, 24);
   }
+
+  #back {
+    position: absolute;
+    width: 10%;
+    top: 10%;
+    left: 2%;
   }
+}

@@ -7,7 +7,7 @@ header {
   font-size: 40px;
 }
 
-#line1{
+#line1 {
   background-color: rgb(225, 191, 90);
   position: absolute;
   width: 38%;
@@ -16,7 +16,7 @@ header {
   top: 8%;
 }
 
-#line2{
+#line2 {
   background-color: rgb(225, 191, 90);
   position: absolute;
   width: 30%;
@@ -25,7 +25,7 @@ header {
   top: 8%;
 }
 
-.cart{
+.cart {
   position: absolute;
   top: 5%;
   right: 3%;
@@ -40,286 +40,283 @@ header {
 }
 
 .container {
-    display: grid;
-    grid-column: 1fr 1fr 1fr;
-    grid-row: 1fr 1fr 1fr;
-    width: 800px;
-    margin: auto;
-    justify-content: center;
-    align-items: center;
-    row-gap: 80px;
-    column-gap: 150px;
-    padding-top: 180px;
-    padding-bottom: 100px;
-    z-index: -1;
+  display: grid;
+  grid-column: 1fr 1fr 1fr;
+  grid-row: 1fr 1fr 1fr;
+  width: 800px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  row-gap: 80px;
+  column-gap: 150px;
+  padding-top: 180px;
+  padding-bottom: 100px;
+  z-index: -1;
+}
+
+.img1 {
+  grid-column: 1;
+  grid-row: 1;
+  text-align: center;
+  align-items: center;
+}
+
+.img2 {
+  grid-column: 2;
+  grid-row: 1;
+  text-align: center;
+  align-items: center;
+}
+
+.img3 {
+  grid-column: 3;
+  grid-row: 1;
+  text-align: center;
+  align-items: center;
+}
+
+.img4 {
+  grid-column: 1;
+  grid-row: 2;
+  text-align: center;
+  align-items: center;
+}
+
+.img5 {
+  grid-column: 2;
+  grid-row: 2;
+  text-align: center;
+  align-items: center;
+}
+
+.img6 {
+  grid-column: 3;
+  grid-row: 2;
+  text-align: center;
+  align-items: center;
+}
+
+.img7 {
+  grid-column: 1;
+  grid-row: 3;
+  text-align: center;
+  align-items: center;
+}
+
+.img8 {
+  grid-column: 2;
+  grid-row: 3;
+  text-align: center;
+  align-items: center;
+}
+
+.img9 {
+  grid-column: 3;
+  grid-row: 3;
+  text-align: center;
+  align-items: center;
+}
+
+.price {
+  color: rgb(141, 23, 24);
+  font-family: Jura;
+  font-weight: Bold;
+  opacity: 1;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(141, 23, 24);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+}
+
+h3 {
+  font-family: Jura;
+  font-weight: Bold;
+  text-align: justify;
+  justify-content: center;
+  display: flex;
+}
+
+p {
+  font-family: Jura;
+  font-weight: Bold;
+  text-align: justify;
+  justify-content: center;
+  align-content: center;
+  overflow-wrap: break-word;
+  white-space: nowrap;
+  word-break: break-all;
+}
+
+button {
+  color: rgb(141, 23, 24);
+  font-family: Jura;
+  font-weight: Bold;
+  font-size: 110%;
+  opacity: 1;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(141, 23, 24);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#endpagebar {
+  background-color: rgb(219, 176, 157);
+  height: 89px;
+  width: 100%;
+  position: absolute;
+  left: 0%;
+}
+
+#cookingwithangelina {
+  position: absolute;
+  top: 1770px;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-family: Jura;
+  padding-left: 40%;
+}
+
+@media screen and (max-width: 670px) {
+  .shop {
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-family: Jura;
+    left: 40%;
+    top: 5%;
+    position: absolute;
   }
-  
+  #line1 {
+    background-color: rgb(225, 191, 90);
+    position: absolute;
+    width: 130px;
+    height: 4px;
+    left: 0%;
+    top: 8%;
+  }
+  #line2 {
+    background-color: rgb(225, 191, 90);
+    position: absolute;
+    width: 58px;
+    height: 4px;
+    right: 17%;
+    top: 8%;
+  }
+  .cart {
+    position: absolute;
+    top: 5%;
+    right: 3%;
+    width: 11%;
+  }
+
+  .container {
+    display: grid;
+    width: auto;
+    grid-column: 1fr;
+    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
   .img1 {
     grid-column: 1;
     grid-row: 1;
     text-align: center;
     align-items: center;
   }
-  
+
   .img2 {
-    grid-column: 2;
-    grid-row: 1;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .img3 {
-    grid-column: 3;
-    grid-row: 1;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .img4 {
     grid-column: 1;
     grid-row: 2;
     text-align: center;
     align-items: center;
-  }
-  
-  .img5 {
-    grid-column: 2;
-    grid-row: 2;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .img6 {
-    grid-column: 3;
-    grid-row: 2;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .img7 {
-    grid-column: 1;
-    grid-row: 3;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .img8 {
-    grid-column: 2;
-    grid-row: 3;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .img9 {
-    grid-column: 3;
-    grid-row: 3;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .price {
-    color: rgb(141, 23, 24);
-    font-family: Jura;
-    font-weight: Bold;
-    opacity: 1;
-    border-radius: 15px;
-    background-color: rgb(255, 255, 255);
-    border-color:rgb(141, 23, 24);
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding: 10px;
   }
 
-  h3 {
-    font-family: Jura;
-    font-weight: Bold;
-    text-align: justify;
-    justify-content: center;
-    display: flex;
+  .img3 {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: center;
+    align-items: center;
+  }
+
+  .img4 {
+    grid-column: 1;
+    grid-row: 4;
+    text-align: center;
+    align-items: center;
+  }
+
+  .img5 {
+    grid-column: 1;
+    grid-row: 5;
+    text-align: center;
+    align-items: center;
+  }
+
+  .img6 {
+    grid-column: 1;
+    grid-row: 6;
+    text-align: center;
+    align-items: center;
+  }
+
+  .img7 {
+    grid-column: 1;
+    grid-row: 7;
+    text-align: center;
+    align-items: center;
+  }
+
+  .img8 {
+    grid-column: 1;
+    grid-row: 8;
+    text-align: center;
+    align-items: center;
+  }
+
+  .img9 {
+    grid-column: 1;
+    grid-row: 9;
+    text-align: center;
+    align-items: center;
   }
 
   p {
-    font-family: Jura;
-    font-weight: Bold;
-    text-align: justify;
-    justify-content: center;
-    align-content: center;
-    overflow-wrap: break-word;
-    white-space: nowrap;
-    word-break: break-all;
+    display: flex;
+  }
+
+  .price {
+    display: flexbox;
   }
 
   button {
     color: rgb(141, 23, 24);
     font-family: Jura;
     font-weight: Bold;
-    font-size: 110%;
+    font-size: 90%;
     opacity: 1;
     border-radius: 15px;
     background-color: rgb(255, 255, 255);
-    border-color:rgb(141, 23, 24);
+    border-color: rgb(141, 23, 24);
     align-items: center;
     justify-content: center;
     display: flex;
     padding: 10px;
     padding-left: 30px;
-    padding-right:30px;
+    padding-right: 30px;
   }
 
-    #endpagebar{
-    background-color:rgb(219, 176, 157);
-    height:89px;
-    width: 100%;
+  #cookingwithangelina {
     position: absolute;
-    left: 0%;
+    top: 536%;
+    color: rgb(233, 231, 231);
+    font-size: 25px;
+    font-family: Jura;
+    padding-left: 10%;
   }
-
-    #cookingwithangelina{
-    position: absolute;
-    top: 1770px;
-    color:rgb(255, 255, 255);
-    font-size:25px;
-    font-family:Jura;
-    padding-left: 40%;
-    }
-
-    @media screen and (max-width:670px) {
-
-      .shop
-      {
-      color:rgb(0, 0, 0);
-      font-size:35px;
-      font-family:Jura;
-      left:40%;
-      top:5%;
-      position:absolute;
-      }
-      #line1{
-          background-color: rgb(225, 191, 90);
-          position: absolute;
-          width: 130px;
-          height: 4px;
-      left: 0%;
-      top: 8%;
-      }
-      #line2{
-          background-color: rgb(225, 191, 90);
-          position: absolute;
-          width: 58px;
-          height: 4px;
-        right: 17%;
-        top: 8%;
-      }
-      .cart{
-          position: absolute;
-          top: 5%;
-          right: 3%;
-          width: 11%;
-        }
-
-        .container {
-          display: grid;
-          width: auto;
-          grid-column: 1fr;
-          grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        }
-
-        .img1 {
-          grid-column: 1;
-          grid-row: 1;
-          text-align: center;
-          align-items: center;
-        }
-        
-        .img2 {
-          grid-column: 1;
-          grid-row: 2;
-          text-align: center;
-          align-items: center;
-        }
-        
-        .img3 {
-          grid-column: 1;
-          grid-row: 3;
-          text-align: center;
-          align-items: center;
-        }
-        
-        .img4 {
-          grid-column: 1;
-          grid-row: 4;
-          text-align: center;
-          align-items: center;
-        }
-        
-        .img5 {
-          grid-column: 1;
-          grid-row: 5;
-          text-align: center;
-          align-items: center;
-        }
-        
-        .img6 {
-          grid-column: 1;
-          grid-row: 6;
-          text-align: center;
-          align-items: center;
-        }
-        
-        .img7 {
-          grid-column: 1;
-          grid-row: 7;
-          text-align: center;
-          align-items: center;
-        }
-        
-        .img8 {
-          grid-column: 1;
-          grid-row: 8;
-          text-align: center;
-          align-items: center;
-        }
-        
-        .img9 {
-          grid-column: 1;
-          grid-row: 9;
-          text-align: center;
-          align-items: center;
-        }
-
-        p {
-          display: flex;
-        }
-
-        .price {
-          display: flexbox;
-          
-        }
-
-        button {
-          color: rgb(141, 23, 24);
-          font-family: Jura;
-          font-weight: Bold;
-          font-size: 90%;
-          opacity: 1;
-          border-radius: 15px;
-          background-color: rgb(255, 255, 255);
-          border-color:rgb(141, 23, 24);
-          align-items: center;
-          justify-content: center;
-          display: flex;
-          padding: 10px;
-          padding-left: 30px;
-          padding-right:30px;
-        }
-
-        #cookingwithangelina{
-          position: absolute;
-          top: 536%;
-          color:rgb(233, 231, 231);
-          font-size:25px;
-          font-family:Jura;
-          padding-left: 10%;
-          }
-      }
+}
