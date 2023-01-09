@@ -10,3 +10,12 @@ menu.addEventListener("click", () => {
     dropdown.style.display = "none";
   }
 });
+
+window.onscroll = function () {
+  scrollRotate();  
+};
+
+function scrollRotate() {
+  let image = document.getElementById("foodhomepage");
+  image.style.transform = "rotate(" + window.scrollY/50 + "deg) translateX(" + window.scrollY/100 + "rem)";
+}
